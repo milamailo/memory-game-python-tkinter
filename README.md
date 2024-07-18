@@ -14,8 +14,8 @@ A simple memory game implemented in Python using Tkinter. The objective of the g
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/memory-game.git
-   cd memory-game
+   git clone https://github.com/milamailo/memory-game-python-tkinter.git
+   cd MemoryGame
    ```
 
 2. Ensure you have Python installed. This code is compatible with Python 3.x.
