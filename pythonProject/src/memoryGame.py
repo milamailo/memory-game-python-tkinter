@@ -3,6 +3,19 @@ from tkinter import messagebox
 import random
 
 
+def start():
+    # Create the main window
+    root = tk.Tk()
+    root.title("Memory Game")
+
+    # Initialize the game with the root window
+    initialize_game(root)
+    # Create the game widgets (buttons)
+    create_widgets()
+
+    # Start the Tkinter main loop
+    root.mainloop()
+
 def initialize_game(r):
     """
     Initialize the game state, including the root window, buttons, images, and choices.
